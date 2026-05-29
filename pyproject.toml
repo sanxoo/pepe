@@ -1,0 +1,16 @@
+[project]
+name = "pepe"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiopath>=0.7.7",
+    "aiopg>=1.4.0",
+    "fastapi>=0.136.3",
+    "python-dotenv>=1.2.2",
+    "python-multipart>=0.0.29",
+    "taskiq>=0.12.4",
+    "taskiq-redis>=1.2.2",
+    "uvicorn>=0.48.0",
+]
